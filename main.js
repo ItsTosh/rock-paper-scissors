@@ -48,22 +48,3 @@ function playRound() {
       return `It's a tie!`;
     } 
 }
-
-function playGame() {
-  playRound();
-  playRound();
-  playRound();
-  playRound();
-  playRound();
-
-  if (playerScore > computerScore) {
-    console.log(`Player wins! Overall Score is:\nPlayer: ${playerScore}\nComputer: ${computerScore}\nTie: ${tie}`)
-  } else if (playerScore < computerScore) {
-    console.log(`Computer wins! Overall Score is:\nPlayer: ${playerScore}\nComputer: ${computerScore}\nTie: ${tie}`)
-  } else if (playerScore < tie && computerScore < tie) {
-    console.log(`It's a tie! Overall Score is:\nPlayer: ${playerScore}\nComputer: ${computerScore}\nTie: ${tie}`)
-  }
-}
-
-
-playGame()
