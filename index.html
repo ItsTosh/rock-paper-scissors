@@ -4,25 +4,45 @@
   <head>
     
     <meta charset="utf-8"> 
+    <link rel="stylesheet" href="styles.css">
     <title>Rock Paper Scissors</title>
 
   </head>
   <body>
-    <h1 class="rps-title">Rock, Paper, Scissors</h1>
     <div class="output">
+      <h1 class="rps-title">Rock, Paper, Scissors</h1>
       <p class="outcome">Choose your weapon!</p>
       <p class="score-message">Rock beats Scissors | Paper beats Rock | Scissors beat Paper</p>
-
-      <div class="human-score">
-        <p class="emoji-human">✌️</p>
-        <p>Human score</p>
-      </div>
-
-      <div class="computer-score">
-        <p class="emoji-computer">✊</p>
-        <p>Computer score</p>
+      <div class="score">
+        <div class="human-score">
+          <p class="emoji-human">✌️</p>
+          <p>Human score</p>
+        </div>
+        
+        <div class="computer-score">
+          <p class="emoji-computer">✊</p>
+          <p>Computer score</p>
+        </div>
       </div>
     </div>
+
+    <div class="moveset">
+      <button class="move">
+        ✊
+      </button>
+
+      <button class="move">
+        🤚
+      </button>
+
+      <button class="move">
+        ✌️
+      </button>
+    </div>
+
+    <footer>
+      <p>Copyright © 2024 ItsTosh</p>
+    </footer>
 
     <script src="main.js"></script>
   </body>
