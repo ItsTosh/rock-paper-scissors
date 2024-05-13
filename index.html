@@ -10,32 +10,32 @@
   </head>
   <body>
     <div class="output">
-      <h1 class="rps-title">Rock, Paper, Scissors</h1>
+      <h1 class="rps-title">Rock Paper Scissors</h1>
       <p class="outcome">Choose your weapon!</p>
-      <p class="score-message">Rock beats Scissors | Paper beats Rock | Scissors beat Paper</p>
+      <p class="score-message">First to 5 points win</p>
       <div class="score">
         <div class="human-score">
-          <p class="emoji-human">✌️</p>
-          <p>Human score</p>
+          <p class="emoji-human">❓</p>
+          <p class="score-num-human">Human: 0</p>
         </div>
         
         <div class="computer-score">
-          <p class="emoji-computer">✊</p>
-          <p>Computer score</p>
+          <p class="emoji-computer">❓</p>
+          <p class="score-num-computer">Computer: 0</p>
         </div>
       </div>
     </div>
 
     <div class="moveset">
-      <button class="move">
+      <button class="move" id="rock">
         ✊
       </button>
 
-      <button class="move">
+      <button class="move" id="paper">
         🤚
       </button>
 
-      <button class="move">
+      <button class="move" id="scissors">
         ✌️
       </button>
     </div>

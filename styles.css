@@ -16,7 +16,10 @@ body {
 .rps-title {
   display: flex;
   justify-content: center;
+  font-size: 45px;
 }
+
+
 
 .output {
   display: flex;
@@ -24,12 +27,19 @@ body {
   align-items: center;
 }
 
+.outcome,
+.score-message {
+  font-weight: bold;
+}
+
 .outcome {
   margin: 5px 0px;
+  font-size: 24px;
 }
 
 .score-message {
   margin: 5px 0px;
+  font-size: 18px;
 }
 
 .score {
@@ -62,6 +72,12 @@ body {
   padding: 0 35px;
   height: 150px;
   width: 80px;
+}
+
+.score-num-human,
+.score-num-computer {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* Moveset */
